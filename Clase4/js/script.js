@@ -24,7 +24,7 @@ Ejercicio 1:
 let nombre =prompt('Ingresa nombre')
 
 function contarNombre(nombreCompleto){
-    console.log(nombreCompleto.length)
+    console.log(nombreCompleto.replaceAll('','').length)
 
 }
 contarNombre(nombre);
