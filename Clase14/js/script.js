@@ -137,19 +137,8 @@ const koders = [
       ]
     }
   ];
-  
-  // Teniendo la siguiente coleccion de koders genera una coleccion de objetos de tipo koder
-  // Agregando ademas las siguientes funciones:
-  
-  // Prototipo koder
-  
-  // -Obtener la edad a partir de la fecha de nacimiento
-  // -Obtener promedio de sus scores
-  // -Tenga el name
-  // -Tenga el lastName
-  // -bootcamp
-  
-  // ----------
+
+  //-------------------------------------------------------------------------------
   /*function promedio(koderScores){
 
     const promedio = koderScores.reduce((accum,item)=>{
@@ -159,7 +148,7 @@ const koders = [
     return resultado
   }*/
   //Se puede tanto arriba como abajo de la funcion koder
-
+  
 
 function promedio(koderScores){
 
@@ -205,3 +194,16 @@ console.log(koderListInstance)
   // Obtener una coleccion de Koder que pertenezca a Python
 
 
+// Teniendo la siguiente coleccion de koders genera una coleccion de objetos de tipo koder
+  // Agregando ademas las siguientes funciones:
+  
+  // Prototipo koder
+  
+  // -Obtener la edad a partir de la fecha de nacimiento
+  // -Obtener promedio de sus scores
+  // -Tenga el name
+  // -Tenga el lastName
+  // -bootcamp
+  
+  // ----------
+  
